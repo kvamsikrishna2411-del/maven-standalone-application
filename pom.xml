@@ -54,6 +54,19 @@
 	</issueManagement>
 
 	-->
+	 <distributionManagement>
+    <repository>
+            <id>nexus-releases</id>
+            <name>Wallmart-Release</name>
+            <url>http://3.109.202.175:8081/repository/Wallmart-Release/</url>
+    </repository>
+    <snapshotRepository>
+            <id>nexus-snapshots</id>
+            <name>Wallmart-Snapshot</name>
+            <url>http://3.109.202.175:8081/repository/Wallmart-Snapshot/</url>
+    </snapshotRepository>
+    </distributionManagement>
+
 	<build>
 	  <plugins>
 	    <plugin>
